@@ -1,7 +1,7 @@
 import React, { useReducer, createContext  } from 'react';
 import contextReducer from './contextReducer';
 
-const initialState = [];
+const initialState = [{ amount: 5, category: 'Savings',type: 'Income',date: '27-03-2023', id: '1'}];
 
 export const ExpenseTrackerContext = createContext(initialState);
 
