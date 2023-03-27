@@ -16,7 +16,7 @@ const Main = () => {
                   <Typography align="center" variant="h5" >Total Balance ${balance}</Typography>
                   <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px' }}>
                         {/* INfoCard */}
-                        Try saying : ADD income for $100 in Category Salary for Monday
+                        
                   </Typography>
                   <Divider />
                   <Form />
